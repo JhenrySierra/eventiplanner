@@ -1,0 +1,23 @@
+{
+  "name": "Eventi Planner",
+  "short_name": "Eventi",
+  "description": "You dream, I plan & You enjoy it all!",
+  "icons": [
+    {
+      "src": "./assets/img/ISOTIPO.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/ISOTIPO.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "theme_color": "#e6bed2",
+  "orientation": "portrait",
+  "scope": "/"
+}
