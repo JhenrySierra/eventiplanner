@@ -11,15 +11,27 @@ closeMenuButton.addEventListener("click", () => {
 });
 
 
-document.addEventListener("DOMContentLoaded", () => {
-  const carousel = document.getElementById("carousel");
-  const totalSlides = carousel.children.length;
-  let slideIndex = 0;
 
-  function moveToNextSlide() {
-    slideIndex = (slideIndex + 1) % totalSlides;
-    carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
-  }
 
-  setInterval(moveToNextSlide, 3000); // Cambia la duración del carrusel aquí (3000ms = 3s)
-});
+function toggleAccordion(id) {
+  const content = document.getElementById(`content${id}`);
+  const icon = document.getElementById(`icon${id}`);
+
+  // Toggle visibility
+  content.classList.toggle("hidden");
+
+  // Rotate icon
+  icon.classList.toggle("rotate-180");
+}
+
+
+//back to top button
+
+  const backToTopButton = document.getElementById('backToTopButton');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 1000) {
+      backToTopButton.style.display = 'block';
+    } else {
+      backToTopButton.style.display = 'none';
+    }
+  });

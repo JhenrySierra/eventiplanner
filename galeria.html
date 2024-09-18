@@ -27,8 +27,8 @@
       rel="stylesheet"
     />
 
-    <title>Eventi Planner</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <title>Galeria - Eventi Planner</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/ISOTIPO.png" />
     <link rel="stylesheet" href="./style.css" />
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -72,7 +72,7 @@
           >
           <a
             class="text-pink-700 text-md hover:text-white hover:bg-[#e6bed2] uppercase transition py-3 px-6 py-2 rounded-xl"
-            href="#contact"
+            href="./index.html#faq"
             >FAQ</a
           >
           <a
@@ -186,7 +186,16 @@
       </div>
     </header>
 
-    <section class="py-[6rem] ">
+        <a
+      href="#page-top"
+      class="fixed bottom-4 right-4 bg-[#e6bed2] text-white px-4 py-2 rounded-full shadow-lg hover:bg-pink-400 transition z-50"
+      id="backToTopButton"
+      title="Back to Top"
+    >
+      ↑
+    </a>
+
+    <section class="py-[6rem] " id="sociales">
       <div class="flex justify-center mx-auto ">
         <div class="min-w-sm max-w-lg justify-between flex flex-col">
           <p
@@ -232,7 +241,7 @@
       </div>
     </section>
 
-    <section class="py-[6rem] bg-[#ffdfd5]">
+    <section class="py-[6rem] bg-[#ffdfd5]" id="corporativos">
       <div class="flex justify-center mx-auto ">
         <div class="min-w-sm max-w-lg justify-between flex flex-col">
           <p
@@ -275,7 +284,7 @@
       </div>
     </section>
     
-    <section class="py-[6rem] bg-[#f3f4f6]">
+    <section class="py-[6rem] bg-[#f3f4f6]" id="regalos">
       <div class="flex justify-center mx-auto ">
         <div class="min-w-sm max-w-lg justify-between flex flex-col">
           <p
@@ -318,8 +327,47 @@
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-8">
+    <section
+      id="cta"
+      class="relative border-top-[10px]"
+      style="
+        background-image: url('./assets/img/cta-bg.jpeg');
+
+        background-position: left 50%;
+      "
+    >
+      <div class="absolute inset-0 bg-[#001111] opacity-70"></div>
+
+      <div
+        class="relative container mx-auto min-w-sm px-4 text-center py-16 max-w-3xl justify-center mx-auto"
+      >
+        <img src="./assets//img/decor1.png" class="w-10 mx-auto mb-10" alt="" />
+        <h2 class="text-[#ffffff] text-5xl font-semibold mb-4 cursive">
+          ¡Tu evento soñado está a solo un paso!
+        </h2>
+        <hr class="border-[#e6bed2] mx-auto w-24 mb-8" />
+        <h4 class="text-white text-xl mb-8 tracking-wide">
+          ¿Listo para hacer que tu boda, fiesta o evento corporativo sea
+          inolvidable? Nosotros nos
+          <span class="text-[#e6bed2]"> encargamos</span> de todo para que tú
+          solo tengas que
+          <span class="text-[#e6bed2]">disfrutar.</span>
+        </h4>
+        <div>
+          
+
+          <a
+            href="#"
+            class="text-[#5f370f] bg-[#e6bed2] font-semibold tracking-[0.2em] border-[#e6bed2] border-[3px] uppercase rounded-full px-5 py-2"
+          >
+            Contáctame
+          </a>
+        </div>
+      </div>
+    </section>
+
+     <!-- Footer -->
+    <footer class="bg-[#5f370f] text-white py-8">
       <div class="container mx-auto px-4 text-center">
         <p class="mb-0">
           © Eventi Planner 2024. Todos los Derechos Reservados.
@@ -329,7 +377,6 @@
         </a>
       </div>
     </footer>
-
     <script src="./script.js"></script>
   </body>
 </html>

@@ -6,8 +6,19 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta name="description" content="" />
+    <meta name="description" content="You dream, I plan & You enjoy it all!" />
+    <meta
+      name="keywords"
+      content="Eventos en Santo Domingo, Event Planner, Planeador de Eventos, Bodas, Conferencias, Bandejas, Regalos, Personalizados, Events, Planner"
+    />
     <meta name="author" content="TECHTONIC Solutions" />
+
+    <meta property="og:title" content="Eventi Planner" />
+    <meta
+      property="og:description"
+      content="You dream, I plan & You enjoy it all!"
+    />
+    <meta property="og:image" content="./assets/img/ISOTIPO.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,7 +39,7 @@
     />
 
     <title>Eventi Planner</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="./assets/img/ISOTIPO.png" />
     <link rel="stylesheet" href="./style.css" />
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -63,7 +74,7 @@
           <a
             class="text-pink-700 text-md hover:text-white hover:bg-[#e6bed2] uppercase transition py-3 px-6 py-2 rounded-xl"
             href="#services"
-            >Servicios</a
+            >Eventos</a
           >
           <a
             class="text-pink-700 text-md hover:text-white hover:bg-[#e6bed2] uppercase transition py-3 px-6 py-2 rounded-xl"
@@ -72,11 +83,11 @@
           >
           <a
             class="text-pink-700 text-md hover:text-white hover:bg-[#e6bed2] uppercase transition py-3 px-6 py-2 rounded-xl"
-            href="#contact"
+            href="#faq"
             >FAQ</a
           >
           <a
-            class="bg-[#e6bed2] px-6 pt-3 rounded-xl transition text-white text-md hover:text-[#5f370f] uppercase"
+            class="bg-[#e6bed2] px-6 pt-3 rounded-xl transition text-white text-md hover:text-[#5f370f] uppercase ml-5"
             href="#contact"
             >Contáctanos</a
           >
@@ -158,7 +169,7 @@
 
     <!-- Masthead -->
     <header
-      class="relative h-[80vh] bg-cover sm:bg-top flex items-center justify-center"
+      class="relative h-[80vh] bg-cover sm:bg-top flex items-center justify-center lg:bg-bottom"
       style="
         background-image: url('./assets/img/hero-img.jpg');
         background-position: center 50px;
@@ -188,6 +199,16 @@
       </div>
     </header>
 
+    <!-- Back to Top Button -->
+    <a
+      href="#page-top"
+      class="fixed bottom-4 right-4 bg-[#e6bed2] text-white px-4 py-2 rounded-full shadow-lg hover:bg-pink-400 transition z-50"
+      id="backToTopButton"
+      title="Back to Top"
+    >
+      ↑
+    </a>
+
     <!-- About -->
     <section id="about" class="mb-10 border-top-[10px]">
       <div
@@ -212,8 +233,6 @@
         </p>
       </div>
     </section>
-
-    
 
     <!-- About -->
     <section id="services" class="mb-10 border-top-[10px] bg-[#ffdfd5]">
@@ -297,7 +316,7 @@
                     Regalos y Bandejas
                   </p>
                   <a
-                    href="#"
+                    href="#regalos"
                     class="font-semibold text-[#e6a0d2] hover:text-[#e6a0d2]"
                   >
                     - Ver más -
@@ -312,7 +331,7 @@
 
     <section
       id="sociales"
-      class="py-24  bg-[#f3f4f6] mt-[-200px] border-b-4 border-pink-300"
+      class="py-24 bg-[#f3f4f6] mt-[-200px] border-b-4 border-pink-300"
     >
       <div class="container mx-auto px-4 mt-[100px]">
         <div class="flex justify-center flex-wrap-reverse mx-auto gap-20">
@@ -366,11 +385,12 @@
               </li>
             </ul>
 
-            <button
-              class="text-[#5f370f] bg-[#e6bed2] font-semibold tracking-[0.2em] uppercase rounded-full px-5 py-2"
+            <a
+              href="./galeria.html#sociales"
+              class="text-center text-[#5f370f] bg-[#e6bed2] font-semibold tracking-[0.2em] uppercase rounded-full px-5 py-2 hover:shadow-xl transition duration-300 hover:text-[#e6bed2] hover:bg-[#5f370f]"
             >
               Ver Galería
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -378,10 +398,10 @@
 
     <section
       id="corporativos"
-      class="py-24  bg-[#ffdfd5] border-b-4 border-pink-300"
+      class="py-24 bg-[#ffdfd5] border-b-4 border-pink-300"
     >
       <div class="container mx-auto px-4">
-        <div class="flex justify-center flex-wrap-reverse mx-auto gap-20">
+        <div class="flex justify-center flex-wrap mx-auto gap-20">
           <div class="min-w-sm max-w-md justify-between flex flex-col">
             <p
               class="text-[#5f370f] text-left font-base uppercase tracking-widest mb-0 montserrat-thin"
@@ -421,11 +441,12 @@
               </li>
             </ul>
 
-            <button
-              class="text-[#5f370f] bg-[#e6bed2] font-semibold tracking-[0.2em] uppercase rounded-full px-5 py-2"
+            <a
+              href="./galeria.html#corporativos"
+              class="text-center text-[#5f370f] bg-[#e6bed2] font-semibold tracking-[0.2em] uppercase rounded-full px-5 py-2 hover:shadow-xl transition duration-300 hover:text-[#e6bed2] hover:bg-[#5f370f]"
             >
               Ver Galería
-            </button>
+            </a>
           </div>
           <div class="image">
             <img
@@ -438,7 +459,7 @@
       </div>
     </section>
 
-    <section id="regalos" class="py-24  bg-[#f3f4f6] border-pink-300">
+    <section id="regalos" class="py-24 bg-[#f3f4f6] border-pink-300">
       <div class="container mx-auto px-4">
         <div class="flex justify-center flex-wrap-reverse mx-auto gap-20">
           <div class="image">
@@ -487,11 +508,12 @@
               </li>
             </ul>
 
-            <button
-              class="text-[#5f370f] bg-[#e6bed2] font-semibold tracking-[0.2em] uppercase rounded-full px-5 py-2"
+            <a
+              href="./galeria.html#regalos"
+              class="text-center text-[#5f370f] bg-[#e6bed2] font-semibold tracking-[0.2em] uppercase rounded-full px-5 py-2 hover:shadow-xl transition duration-300 hover:text-[#e6bed2] hover:bg-[#5f370f]"
             >
               Ver Galería
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -503,7 +525,7 @@
       class="py-24 bg-[#ffdfd5] border-t-4 border-b-4 border-pink-300"
     >
       <div class="container mx-auto px-4">
-        <div class="flex justify-center flex-wrap-reverse mx-auto gap-8">
+        <div class="flex justify-center flex-wrap mx-auto gap-8">
           <div class="min-w-sm">
             <i class="bi-gem text-4xl text-white-600 mb-4"></i>
             <p
@@ -530,11 +552,12 @@
               ¡Estoy aquí para servirles y hacer que sus eventos sean
               inolvidables!
             </p>
-            <button
-              class="text-[#5f370f] bg-pink-200 font-semibold tracking-[0.2em] uppercase rounded-full px-5 py-2"
+            <a
+              href="./galeria.html"
+              class="text-center text-[#5f370f] bg-[#e6bed2] font-semibold tracking-[0.2em] uppercase rounded-full px-5 py-2 hover:shadow-xl transition duration-300 hover:text-[#e6bed2] hover:bg-[#5f370f]"
             >
               Ver Galería
-            </button>
+            </a>
           </div>
 
           <div class="image">
@@ -575,22 +598,149 @@
           <span class="text-[#e6bed2]">disfrutar.</span>
         </h4>
         <div>
-          <button
-            class="text-[#e6bed2] bg-transparent border border-[#e6bed2] border-[3px] font-semibold tracking-[0.2em] uppercase rounded-full px-5 py-2"
+          <a
+            href="./galeria.html"
+            class="text-[#e6bed2] bg-transparent border border-[#e6bed2] border-[3px] font-semibold tracking-[0.2em] uppercase rounded-full px-5 py-2 hover:bg-[#e6bed2] hover:text-[#5f370f] transition"
+            >Ver Galeria</a
           >
-            Ver Galería
-          </button>
-          <button
+
+          <a
+            href="#"
             class="text-[#5f370f] bg-[#e6bed2] font-semibold tracking-[0.2em] border-[#e6bed2] border-[3px] uppercase rounded-full px-5 py-2"
           >
             Contáctame
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 px-8" id="faq">
+      <div class="flex flex-col mx-auto items-center mb-8">
+        <p
+          class="text-[#5f370f] text-center font-base uppercase tracking-widest mb-0 montserrat-thin"
+        >
+          Frequently Asked Questions
+        </p>
+        <h3
+          class="text-3xl text-center font-semibold text-left mb-3 tracking-wider text-[#5f370f]"
+        >
+          <span class="cursive text-5xl font-black text-[#e6bed2]"
+            >Respondemos</span
+          >
+          tus dudas mas comúnes
+        </h3>
+      </div>
+      <div class="max-w-2xl mx-auto">
+        <div class="border-b border-gray-200">
+          <!-- Accordion Item 1 -->
+          <button
+            class="w-full text-left py-4 text-lg font-semibold text-gray-800 flex justify-between items-center"
+            onclick="toggleAccordion(1)"
+          >
+            ¿Qué servicios ofreces?
+            <span
+              class="material-icons transform transition-transform"
+              id="icon1"
+              >expand_more</span
+            >
           </button>
+          <div class="pl-4 pb-4 hidden" id="content1">
+            <p>
+              Ofrecemos una variedad de servicios que incluyen organización de
+              eventos, planificación de bodas, y más.
+            </p>
+          </div>
+        </div>
+
+        <div class="border-b border-gray-200">
+          <!-- Accordion Item 2 -->
+          <button
+            class="w-full text-left py-4 text-lg font-semibold text-gray-800 flex justify-between items-center"
+            onclick="toggleAccordion(2)"
+          >
+            ¿Cómo puedo contactarte?
+            <span
+              class="material-icons transform transition-transform"
+              id="icon2"
+              >expand_more</span
+            >
+          </button>
+          <div class="pl-4 pb-4 hidden" id="content2">
+            <p>
+              Puedes contactarnos a través de nuestro formulario en la página de
+              contacto o llamando directamente a nuestro número.
+            </p>
+          </div>
+        </div>
+
+        <div class="border-b border-gray-200">
+          <!-- Accordion Item 3 -->
+          <button
+            class="w-full text-left py-4 text-lg font-semibold text-gray-800 flex justify-between items-center"
+            onclick="toggleAccordion(3)"
+          >
+            ¿Qué tipos de eventos manejas?
+            <span
+              class="material-icons transform transition-transform"
+              id="icon3"
+              >expand_more</span
+            >
+          </button>
+          <div class="pl-4 pb-4 hidden" id="content3">
+            <p>
+              Manejamos desde eventos sociales como bodas y cumpleaños hasta
+              eventos corporativos como conferencias y lanzamientos de
+              productos.
+            </p>
+          </div>
+        </div>
+
+        <div class="border-b border-gray-200">
+          <!-- Accordion Item 3 -->
+          <button
+            class="w-full text-left py-4 text-lg font-semibold text-gray-800 flex justify-between items-center"
+            onclick="toggleAccordion(4)"
+          >
+            ¿Cuánto tiempo necesitan para planificar un evento?
+            <span
+              class="material-icons transform transition-transform"
+              id="icon3"
+              >expand_more</span
+            >
+          </button>
+          <div class="pl-4 pb-4 hidden" id="content4">
+            <p>
+              El tiempo de planificación varía según el tipo de evento, pero
+              recomendamos al menos 3 meses.
+            </p>
+          </div>
+        </div>
+
+        <div class="border-b border-gray-200">
+          <!-- Accordion Item 4 -->
+          <button
+            class="w-full text-left py-4 text-lg font-semibold text-gray-800 flex justify-between items-center"
+            onclick="toggleAccordion(5)"
+          >
+            ¿Qué incluyen los paquetes de regalos personalizados?
+            <span
+              class="material-icons transform transition-transform"
+              id="icon4"
+              >expand_more</span
+            >
+          </button>
+          <div class="pl-4 pb-4 hidden" id="content5">
+            <p>
+              Nuestros paquetes incluyen detalles únicos, adaptados a cada
+              ocasión especial y preferencia del cliente.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-8">
+    <footer class="bg-[#5f370f] text-white py-8">
       <div class="container mx-auto px-4 text-center">
         <p class="mb-0">
           © Eventi Planner 2024. Todos los Derechos Reservados.
@@ -601,6 +751,6 @@
       </div>
     </footer>
 
-    <script src="./script.js" ></script>
+    <script src="./script.js"></script>
   </body>
 </html>
