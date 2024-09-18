@@ -35,3 +35,26 @@ function toggleAccordion(id) {
       backToTopButton.style.display = 'none';
     }
   });
+
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const container = document.querySelector('.flex');
+    const prevButton = document.getElementById('prevButton');
+    const nextButton = document.getElementById('nextButton');
+    
+    const scrollAmount = 190; // Width of the images + margin
+
+    prevButton.addEventListener('click', () => {
+      container.scrollBy({
+        left: -scrollAmount,
+        behavior: 'smooth'
+      });
+    });
+
+    nextButton.addEventListener('click', () => {
+      container.scrollBy({
+        left: scrollAmount,
+        behavior: 'smooth'
+      });
+    });
+  });
