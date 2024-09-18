@@ -3,16 +3,30 @@
   "short_name": "Eventi",
   "description": "You dream, I plan & You enjoy it all!",
   "icons": [
+{
+  "icons": [
     {
-      "src": "./assets/img/ISOTIPO.png",
-      "sizes": "192x192",
+      "src": "./assets/16.png",
+      "sizes": "16x16",
       "type": "image/png"
     },
     {
-      "src": "./assets/img/ISOTIPO.png",
-      "sizes": "512x512",
+      "src": "./assets/32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/196.png",
+      "sizes": "196x196",
       "type": "image/png"
     }
+  ]
+}
   ],
   "start_url": "/index.html",
   "background_color": "#ffffff",
