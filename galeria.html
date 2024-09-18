@@ -27,6 +27,13 @@
       rel="stylesheet"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <title>Galeria - Eventi Planner</title>
     <link rel="icon" type="image/x-icon" href="./assets/img/ISOTIPO.png" />
     <link rel="stylesheet" href="./style.css" />
@@ -169,18 +176,18 @@
 
       <div class="relative text-center px-4">
         <h1
-          class="text-white mb-8 tracking-[0.3em] leading-snug montserrat-thin"
+          class="text-white mb-8 tracking-[0.3em] leading-snug montserrat-thin animate__animated animate__fadeInUp"
         >
           EVENTS PLANNING STUDIO <br />
           DOMINICAN REPUBLIC
         </h1>
         <hr class="border-pink-400 mx-auto w-24 mt-[-1rem] mb-4" />
         <h2
-          class="text-white text-4xl mb-4 uppercase tracking-widest drop-shadow-xl"
+          class="text-white text-4xl mb-4 uppercase tracking-widest drop-shadow-xl animate__animated animate__fadeInUp"
         >
           Galería de Eventos
         </h2>
-        <h2 class="text-[#e6bed2] text-4xl cursive text-5xl drop-shadow-xl">
+        <h2 class="text-[#e6bed2] text-4xl cursive text-5xl drop-shadow-xl animate__animated animate__fadeInUp">
           You enjoy it all!
         </h2>
       </div>
@@ -195,7 +202,7 @@
       ↑
     </a>
 
-    <section class="py-[6rem] " id="sociales">
+    <section class="py-[6rem] " id="sociales" data-aos="fade-up">
       <div class="flex justify-center mx-auto ">
         <div class="min-w-sm max-w-lg justify-between flex flex-col">
           <p
@@ -241,8 +248,8 @@
       </div>
     </section>
 
-    <section class="py-[6rem] bg-[#ffdfd5]" id="corporativos">
-      <div class="flex justify-center mx-auto ">
+    <section class="py-[6rem] bg-[#ffdfd5]" id="corporativos" >
+      <div class="flex justify-center mx-auto " data-aos="fade-up">
         <div class="min-w-sm max-w-lg justify-between flex flex-col">
           <p
             class="text-[#5f370f] text-left font-base uppercase text-center tracking-widest mb-0 montserrat-thin"
@@ -284,8 +291,8 @@
       </div>
     </section>
     
-    <section class="py-[6rem] bg-[#f3f4f6]" id="regalos">
-      <div class="flex justify-center mx-auto ">
+    <section class="py-[6rem] bg-[#f3f4f6]" id="regalos" >
+      <div class="flex justify-center mx-auto " data-aos="fade-up">
         <div class="min-w-sm max-w-lg justify-between flex flex-col">
           <p
             class="text-[#5f370f] text-left font-base uppercase text-center tracking-widest mb-0 montserrat-thin"
@@ -378,5 +385,10 @@
       </div>
     </footer>
     <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
+
   </body>
 </html>

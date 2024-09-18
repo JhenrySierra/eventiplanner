@@ -38,6 +38,13 @@
       rel="stylesheet"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <title>Eventi Planner</title>
     <link rel="icon" type="image/x-icon" href="./assets/img/ISOTIPO.png" />
     <link rel="stylesheet" href="./style.css" />
@@ -169,30 +176,30 @@
 
     <!-- Masthead -->
     <header
-      class="relative h-[80vh] bg-cover sm:bg-top flex items-center justify-center lg:bg-bottom"
+      class="relative h-[80vh] bg-cover sm:bg-top flex items-center justify-center lg:bg-bottom "
       style="
         background-image: url('./assets/img/hero-img.jpg');
         background-position: center 50px;
       "
     >
       <!-- Overlay -->
-      <div class="absolute inset-0 bg-[#001111] opacity-50"></div>
+      <div class="absolute inset-0 bg-[#001111] opacity-50 "></div>
 
       <div class="relative text-center px-4">
         <h1
-          class="text-white mb-8 tracking-[0.3em] leading-snug montserrat-thin"
+          class="text-white mb-8 tracking-[0.3em] leading-snug montserrat-thin animate__animated animate__fadeInUp"
         >
           EVENTS PLANNING STUDIO <br />
           DOMINICAN REPUBLIC
         </h1>
-        <hr class="border-pink-400 mx-auto w-24 mt-[-1rem] mb-4" />
+        <hr class="border-pink-400 mx-auto w-24 mt-[-1rem] mb-4 animate__animated animate__fadeInUp" />
         <h2
-          class="text-white text-4xl mb-4 uppercase tracking-widest drop-shadow-xl"
+          class="text-white text-4xl mb-4 uppercase tracking-widest drop-shadow-xl animate__animated animate__fadeInUp"
         >
           You dream, I plan...
         </h2>
         <h2
-          class="text-[#e6bed2] mb-8 text-4xl cursive text-5xl drop-shadow-xl"
+          class="text-[#e6bed2] mb-8 text-4xl cursive text-5xl drop-shadow-xl animate__animated animate__fadeInUp"
         >
           You enjoy it all!
         </h2>
@@ -216,17 +223,17 @@
       >
         <img src="./assets//img/decor1.png" class="w-10 mx-auto mb-10" alt="" />
         <h2
-          class="text-[#5f370f] text-5xl font-semibold mb-4 cursive drop-shadow-xl"
+          class="text-[#5f370f] text-5xl font-semibold mb-4 cursive drop-shadow-xl animate__animated animate__fadeInUp"
         >
           What We Do
         </h2>
         <hr class="border-[#e6bed2] mx-auto w-24 mb-8" />
-        <h3 class="text-black text-2xl mb-8 tracking-wide">
+        <h3 class="text-black text-2xl mb-8 tracking-wide animate__animated animate__fadeInUp">
           En Eventi Planner, nos especializamos en convertir tus
           <span class="text-[#e6bed2]"> ideas</span> en experiencias
           <span class="text-[#e6bed2]">inolvidables.</span>
         </h3>
-        <p class="text-black mb-8 tracking-wider">
+        <p class="text-black mb-8 tracking-wider animate__animated animate__fadeInUp">
           Desde bodas de ensueño hasta eventos corporativos y celebraciones
           personales, yo me encargo de cada detalle para que tú puedas disfrutar
           sin preocupaciones.
@@ -235,8 +242,8 @@
     </section>
 
     <!-- About -->
-    <section id="services" class="mb-10 border-top-[10px] bg-[#ffdfd5]">
-      <div
+    <section id="services" class="mb-10 border-top-[10px] bg-[#ffdfd5]" >
+      <div data-aos="fade-down"
         class="container mx-auto min-w-sm px-4 text-center py-16 justify-center mx-auto"
       >
         <img src="./assets//img/decor1.png" class="w-10 mx-auto mb-5" alt="" />
@@ -335,14 +342,14 @@
     >
       <div class="container mx-auto px-4 mt-[100px]">
         <div class="flex justify-center flex-wrap-reverse mx-auto gap-20">
-          <div class="image">
+          <div class="image" data-aos="fade-right">
             <img
               src="./assets/img/boda1.jpg"
               class="max-w-sm rounded-lg drop-shadow-xl w-full h-full object-fit"
               alt=""
             />
           </div>
-          <div class="min-w-sm max-w-md justify-between flex flex-col">
+          <div class="min-w-sm max-w-md justify-between flex flex-col" data-aos="fade-left">
             <p
               class="text-[#5f370f] text-left font-base uppercase tracking-widest mb-0 montserrat-thin"
             >
@@ -402,7 +409,7 @@
     >
       <div class="container mx-auto px-4">
         <div class="flex justify-center flex-wrap mx-auto gap-20">
-          <div class="min-w-sm max-w-md justify-between flex flex-col">
+          <div class="min-w-sm max-w-md justify-between flex flex-col" data-aos="fade-right">
             <p
               class="text-[#5f370f] text-left font-base uppercase tracking-widest mb-0 montserrat-thin"
             >
@@ -448,7 +455,7 @@
               Ver Galería
             </a>
           </div>
-          <div class="image">
+          <div class="image" data-aos="fade-left">
             <img
               src="./assets/img/corporate2.jpeg"
               class="max-w-sm rounded-lg shadow-xl h-full object-cover"
@@ -462,14 +469,14 @@
     <section id="regalos" class="py-24 bg-[#f3f4f6] border-pink-300">
       <div class="container mx-auto px-4">
         <div class="flex justify-center flex-wrap-reverse mx-auto gap-20">
-          <div class="image">
+          <div class="image" data-aos="fade-right">
             <img
               src="./assets/img/regalos1.jpg"
               class="max-w-sm rounded-lg shadow-xl h-full object-cover"
               alt=""
             />
           </div>
-          <div class="min-w-sm max-w-md justify-between flex flex-col">
+          <div class="min-w-sm max-w-md justify-between flex flex-col" data-aos="fade-left">
             <p
               class="text-[#5f370f] text-left font-base uppercase tracking-widest mb-0 montserrat-thin"
             >
@@ -526,7 +533,7 @@
     >
       <div class="container mx-auto px-4">
         <div class="flex justify-center flex-wrap mx-auto gap-8">
-          <div class="min-w-sm">
+          <div class="min-w-sm" data-aos="fade-right">
             <i class="bi-gem text-4xl text-white-600 mb-4"></i>
             <p
               class="text-[#5f370f] text-center font-semibold uppercase tracking-widest mb-3 montserrat-thin"
@@ -560,7 +567,7 @@
             </a>
           </div>
 
-          <div class="image">
+          <div class="image" data-aos="fade-left">
             <img
               src="./assets/img/Captura de pantalla 2024-09-12 185351.png"
               class="max-w-sm rounded-lg shadow-xl"
@@ -582,7 +589,7 @@
     >
       <div class="absolute inset-0 bg-[#001111] opacity-70"></div>
 
-      <div
+      <div data-aos="fade-up"
         class="relative container mx-auto min-w-sm px-4 text-center py-16 max-w-3xl justify-center mx-auto"
       >
         <img src="./assets//img/decor1.png" class="w-10 mx-auto mb-10" alt="" />
@@ -597,14 +604,14 @@
           solo tengas que
           <span class="text-[#e6bed2]">disfrutar.</span>
         </h4>
-        <div>
-          <a
+        <div data-aos="fade-left">
+          <a  
             href="./galeria.html"
             class="text-[#e6bed2] bg-transparent border border-[#e6bed2] border-[3px] font-semibold tracking-[0.2em] uppercase rounded-full px-5 py-2 hover:bg-[#e6bed2] hover:text-[#5f370f] transition"
             >Ver Galeria</a
           >
 
-          <a
+          <a 
             href="#"
             class="text-[#5f370f] bg-[#e6bed2] font-semibold tracking-[0.2em] border-[#e6bed2] border-[3px] uppercase rounded-full px-5 py-2"
           >
@@ -752,5 +759,10 @@
     </footer>
 
     <script src="./script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
   </body>
 </html>
